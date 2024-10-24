@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+
+  :root {
+    --primary-color: #ff0000;
+    --secondary-color: #000000;
+    --background-color: #1e00ff;
+  }
+
+  header {
+    background-color: var(--primary-color);
+    height: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  
+.primeira {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--primary-color);
+    max-width: 800px;
+    margin: 20px auto;
+  }
+  .primeira p {
+    max-width: 400px;
+  }
+  .primeira img {
+    width: 10rem;
+  }
+
+  .segunda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-color);
+    height: 25rem;
+    margin-top: 20px;
+    gap: 20px;
+  }
+  .segunda img {
+    width: 8rem;
+    height: 8rem;
+  }
+  .segunda p {
+    max-width: 200px;
+  }
+
+  .terceira {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--secondary-color);
+    gap: 10px;
+    margin-top: 20px;
+  }
+  .terceira img {
+    width: 8rem;
+    height: 8rem;
+  }
